@@ -1,9 +1,7 @@
-def hello():
-    print('Howdy!')
-    print('Howdy!!!')
-    print('Hello there.')
+def plusOne(number):
+    return number + 1
+    
+newNumber = plusOne(5)
+print(newNumber)
 
-hello()
-hello()
-hello()
 
